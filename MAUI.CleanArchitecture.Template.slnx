@@ -1,4 +1,9 @@
 <Solution>
+  <Folder Name="/Solution Items/">
+    <File Path=".editorconfig" />
+    <File Path="Directory.Build.props" />
+    <File Path="stylecop.json" />
+  </Folder>
   <Folder Name="/src/" />
   <Folder Name="/src/Core/">
     <Project Path="src/Core/MAUI.CleanArchitectureTemplate.Core/MAUI.CleanArchitectureTemplate.Core.csproj" Id="e0bf03da-1975-4f3f-a894-a74d94dd748d" />
