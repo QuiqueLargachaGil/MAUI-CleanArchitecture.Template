@@ -21,5 +21,7 @@
   <Folder Name="/tests/ArchitectureTests/">
     <Project Path="tests/ArchitectureTests/ArchitectureTests.csproj" Id="f68449c9-535e-47f3-8b72-e8384dc9cd6b" />
   </Folder>
-  <Folder Name="/tests/UnitTests/" />
+  <Folder Name="/tests/UnitTests/">
+    <Project Path="tests/UnitTests/ViewModels.UnitTests/ViewModels.UnitTests.csproj" Id="dd75871c-88ac-4c2d-a737-ed7d77b9f27f" />
+  </Folder>
 </Solution>
