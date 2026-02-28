@@ -1,0 +1,27 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path=".editorconfig" />
+    <File Path="Directory.Build.props" />
+    <File Path="stylecop.json" />
+  </Folder>
+  <Folder Name="/src/" />
+  <Folder Name="/src/Core/">
+    <Project Path="src/Core/MAUI.CleanArchitectureTemplate.Core/MAUI.CleanArchitectureTemplate.Core.csproj" Id="e0bf03da-1975-4f3f-a894-a74d94dd748d" />
+  </Folder>
+  <Folder Name="/src/Infrastructure/">
+    <Project Path="src/Infrastructure/MAUI.CleanArchitectureTemplate.Infrastructure/MAUI.CleanArchitectureTemplate.Infrastructure.csproj" Id="454a7c22-e1f5-4510-ad3a-fd873ce7a1dc" />
+  </Folder>
+  <Folder Name="/src/Presentation/">
+    <Project Path="src/Presentation/MAUI.CleanArchitectureTemplate.UI/MAUI.CleanArchitectureTemplate.csproj">
+      <Deploy Solution="Debug|*" />
+    </Project>
+    <Project Path="src/Presentation/MAUI.CleanArchitectureTemplate.ViewModels/MAUI.CleanArchitectureTemplate.ViewModels.csproj" Id="d15f8303-0bc7-4539-be35-c387154d4e83" />
+  </Folder>
+  <Folder Name="/tests/" />
+  <Folder Name="/tests/ArchitectureTests/">
+    <Project Path="tests/ArchitectureTests/ArchitectureTests.csproj" Id="f68449c9-535e-47f3-8b72-e8384dc9cd6b" />
+  </Folder>
+  <Folder Name="/tests/UnitTests/">
+    <Project Path="tests/UnitTests/ViewModels.UnitTests/ViewModels.UnitTests.csproj" Id="dd75871c-88ac-4c2d-a737-ed7d77b9f27f" />
+  </Folder>
+</Solution>
